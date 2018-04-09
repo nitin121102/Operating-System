@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nitin.operatingsystemproject.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFA726"
+        android:text="FCFS"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:paddingLeft="130dp"
+        android:onClick="Fcfs"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:text="Priority (NP)"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:paddingLeft="90dp"
+        android:onClick="prioritynp"
+        />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#AB47BC"
+    android:text="Round-Robin"
+    android:textColor="#000000"
+    android:textSize="40sp"
+    android:paddingLeft="90dp"
+        android:onClick="round"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1DE9B6"
+        android:text="Sjf (Non Prem)"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:paddingLeft="90dp"
+        android:onClick="sjfnp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E91E63"
+        android:text="Sjf (Prem)"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:paddingLeft="90dp"
+        android:onClick="sjfp"
+        />
+
+
+</LinearLayout>

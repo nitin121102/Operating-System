@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00695C"
+        android:textColor="#000000"
+        android:paddingLeft="70sp"
+        android:text="Round - Robin "
+        android:textSize="30dp"/>
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnCount="5"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:rowCount="6">
+
+
+                    <Button
+                        android:layout_column="0"
+                        android:layout_row="0"
+                        android:text="PROCESS"
+                        android:background="#3F51B5"
+
+
+                        />
+
+                    <Button
+                        android:layout_column="0"
+                        android:layout_row="1"
+                        android:text="p1"
+                        android:layout_marginTop="5dp"
+                        android:background="#3F51B5"/>
+
+                    <Button
+                        android:layout_column="0"
+                        android:layout_row="2"
+                        android:text="p2"
+                        android:layout_marginTop="5dp"
+                        android:background="#3F51B5"/>
+
+                    <Button
+                        android:layout_marginTop="5dp"
+                        android:layout_column="0"
+                        android:layout_row="3"
+                        android:text="p3"
+                        android:background="#3F51B5"
+                        />
+
+                    <Button
+                        android:layout_column="0"
+                        android:layout_row="4"
+                        android:text="p4"
+                        android:layout_marginTop="5dp"
+                        android:background="#3F51B5"
+
+                        />
+
+                    <Button
+                        android:layout_column="0"
+                        android:layout_marginTop="5dp"
+                        android:layout_row="5"
+                        android:text="p5"
+                        android:background="#3F51B5"
+
+                        />
+
+
+                    <Button
+                        android:layout_column="1"
+                        android:layout_marginLeft="8dp"
+                        android:background="#3F51B5"
+                        android:layout_row="0"
+                        android:text="BT" />
+
+                    <EditText
+
+                        android:id="@+id/bt1"
+                        android:layout_column="1"
+                        android:layout_row="1"
+                        android:hint="enter here" />
+
+                    <EditText
+                        android:id="@+id/bt2"
+                        android:layout_column="1"
+                        android:layout_row="2"
+                        android:hint="enter here" />
+
+                    <EditText
+                        android:id="@+id/bt3"
+                        android:layout_column="1"
+                        android:layout_row="3"
+                        android:hint="enter here    " />
+
+                    <EditText
+                        android:id="@+id/bt4"
+                        android:layout_column="1"
+                        android:layout_row="4"
+                        android:hint="enter here" />
+
+                    <EditText
+                        android:id="@+id/bt5"
+                        android:layout_column="1"
+                        android:layout_row="5"
+                        android:hint="enter here" />
+
+                    <Button
+                        android:layout_column="2"
+                        android:layout_row="0"
+                        android:text="TQ"
+                        android:layout_marginLeft="6dp"
+                        android:background="#3F51B5"/>
+
+                    <EditText
+                        android:id="@+id/tq"
+                        android:layout_column="2"
+                        android:layout_row="1"
+                        android:hint="Time quantum"
+
+
+                        />
+
+
+
+
+                    <Button
+                        android:background="#3F51B5"
+                        android:layout_column="3"
+                        android:layout_row="0"
+
+                        android:text="WT" />
+
+                    <TextView
+                        android:id="@+id/wt1"
+                        android:layout_column="3"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_row="1"
+                        android:text="0"
+                        android:textSize="20dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/wt2"
+                        android:layout_column="3"
+                        android:layout_gravity="center"
+                        android:layout_row="2"
+                        android:text="0"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/wt3"
+                        android:layout_column="3"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_row="3"
+
+                        android:text="0"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/wt4"
+                        android:layout_column="3"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_row="4"
+                        android:text="0"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/wt5"
+                        android:layout_column="3"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_row="5"
+                        android:text="0"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:layout_column="4"
+                        android:layout_marginLeft="5dp"
+                        android:layout_row="0"
+                        android:background="#3F51B5"
+                        android:text="TAT" />
+
+                    <TextView
+                        android:id="@+id/tat1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="0"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/tat2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="0"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/tat3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="0"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/tat4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="0"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/tat5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="0"
+                        android:textSize="20dp" />
+
+                </GridLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:text="Average Waiting Time  ="
+                android:textSize="20dp"
+                android:background="#F8BBD0"/>
+
+            <TextView
+                android:id="@+id/awt"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="0"
+                android:textSize="20sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Average TURN AROUND TIME"
+                android:background="#F8BBD0"
+                android:textSize="20sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/atat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="0"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:onClick="press"
+                android:text="Submit"
+                android:background="#1565C0"
+
+                />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
+</ScrollView>
